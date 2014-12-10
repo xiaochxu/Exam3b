@@ -117,28 +117,25 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Button1.Text" xml:space="preserve">
-    <value>Submit</value>
-  </data>
   <data name="Label1.Text" xml:space="preserve">
-    <value>Please choose your language:</value>
+    <value>请选择您的语言</value>
   </data>
-  <data name="lb_female.text" xml:space="preserve">
-    <value>Female</value>
+  <data name="lb_currency.Text" xml:space="preserve">
+    <value>¥</value>
   </data>
-  <data name="lb_hope.text" xml:space="preserve">
-    <value>When I graduate, I hope to earn</value>
+  <data name="lb_graduate.Text" xml:space="preserve">
+    <value>我希望你的梦想实现, 当你毕业于</value>
   </data>
-  <data name="lb_iam.text" xml:space="preserve">
-    <value>I am: </value>
+  <data name="lb_hello.Text" xml:space="preserve">
+    <value>您好</value>
   </data>
-  <data name="lb_male.text" xml:space="preserve">
-    <value>Male</value>
+  <data name="lb_visit.Text" xml:space="preserve">
+    <value>请访问我的</value>
   </data>
-  <data name="lb_myname.Text" xml:space="preserve">
-    <value>My name is:</value>
+  <data name="lb_wish.Text" xml:space="preserve">
+    <value>祝你毕业后, 你的职业生涯一切顺利。希望你能赚</value>
   </data>
-  <data name="lb_plan.text" xml:space="preserve">
-    <value>I plan to graduate on:</value>
+  <data name="lb_wish2.Text" xml:space="preserve">
+    <value>当你得到你的第一份工作！</value>
   </data>
 </root>

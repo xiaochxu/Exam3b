@@ -33,11 +33,14 @@
              <td class="auto-style1">
                  <asp:Label ID="Label1" runat="server" meta:resourcekey="Label1"></asp:Label>
                  <br />
+                 <br />
 
                   <asp:DropDownList ID="Language1" runat="server" AutoPostBack="true" Height="17px" Width="89px">
-                  <asp:ListItem Value="auto">Auto</asp:ListItem>
+                 
                   <asp:ListItem Value="en-US">English</asp:ListItem>
                   <asp:ListItem Value="zh-CN">中文</asp:ListItem>
+                  <asp:ListItem Value="es-ES">Español</asp:ListItem>
+                  <asp:ListItem Value="ar-IQ">العربية</asp:ListItem>
 
                     </asp:DropDownList>
               </td>
@@ -48,22 +51,38 @@
                   <asp:Label ID="lb_myname" runat="server" meta:resourcekey="lb_myname"></asp:Label>
         &nbsp;<asp:TextBox ID="txt_name" runat="server"></asp:TextBox>
 
+                  <br />
+
         <br />
             <asp:Label ID="lb_iam" runat="server"  meta:resourcekey="lb_iam"></asp:Label>
+
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  <asp:RadioButton ID="RadioButton1" runat="server" />
+                  <asp:Label ID="lb_female" runat="server"  meta:resourcekey="lb_female"></asp:Label>
+                  <asp:RadioButton ID="RadioButton2" runat="server" />
+
+                  <asp:Label ID="lb_male" runat="server" meta:resourcekey="lb_male" ></asp:Label>
+
+                  <br />
 
         <br />
             <asp:Label ID="lb_plan" runat="server" meta:resourcekey="lb_plan"></asp:Label>
         
+                  <br />
+        
         <br />
-            <asp:Calendar ID="Calendar1" runat="server" Width="243px" ></asp:Calendar>
+            <asp:Calendar ID="Calendar" runat="server" Width="243px" ></asp:Calendar>
         
         <br />
             <asp:Label ID="lb_hope" runat="server" meta:resourcekey="lb_hope"></asp:Label>&nbsp; <asp:TextBox ID="txt_salary" runat="server"></asp:TextBox>
 
+                  <br />
+                  <br />
+
         <br />
        
 
-        <asp:Button ID="Button1" runat="server" Text="Button" meta:resourcekey="Button1" />
+        <asp:Button ID="Button1" runat="server" meta:resourcekey="Button1" />
 
 
        
