@@ -123,8 +123,20 @@
   <data name="Label1.Text" xml:space="preserve">
     <value>请选择您的语言</value>
   </data>
+  <data name="Label1.Text1" xml:space="preserve">
+    <value>请选择您的语言</value>
+  </data>
+  <data name="lb_currency.Text" xml:space="preserve">
+    <value>¥</value>
+  </data>
   <data name="lb_female.text" xml:space="preserve">
     <value>女士</value>
+  </data>
+  <data name="lb_graduate.Text" xml:space="preserve">
+    <value>我希望你的梦想实现, 当你毕业于</value>
+  </data>
+  <data name="lb_hello.Text" xml:space="preserve">
+    <value>您好</value>
   </data>
   <data name="lb_hope.Text" xml:space="preserve">
     <value>当我毕业了，我希望赚:</value>
@@ -140,5 +152,14 @@
   </data>
   <data name="lb_plan.Text" xml:space="preserve">
     <value>我打算毕业的时间：</value>
+  </data>
+  <data name="lb_visit.Text" xml:space="preserve">
+    <value>请访问我的</value>
+  </data>
+  <data name="lb_wish.Text" xml:space="preserve">
+    <value>祝你毕业后, 你的职业生涯一切顺利。希望你能赚</value>
+  </data>
+  <data name="lb_wish2.Text" xml:space="preserve">
+    <value>当你得到你的第一份工作！</value>
   </data>
 </root>

@@ -44,8 +44,8 @@
         <br />
                   <asp:Label ID="lb_wish" runat="server" meta:resourcekey="lb_wish"></asp:Label>
 &nbsp;<asp:Label ID="Label2" runat="server" Text="lb_currency"></asp:Label>
-                 &nbsp;&nbsp;
-                  <asp:Label ID="lb_wish2" runat="server" meta:resourcekey="lb_wish2"></asp:Label>
+                 &nbsp;&nbsp;<asp:Label ID="lbl_money" runat="server"></asp:Label>
+&nbsp;<asp:Label ID="lb_wish2" runat="server" meta:resourcekey="lb_wish2"></asp:Label>
           <br />
         <br />
           <br />

@@ -123,10 +123,25 @@
   <data name="Label1.Text" xml:space="preserve">
     <value>Please choose your language:</value>
   </data>
+  <data name="Label1.Text1" xml:space="preserve">
+    <value>Please choose your language:</value>
+  </data>
+  <data name="lb_currency.Text" xml:space="preserve">
+    <value>$</value>
+  </data>
   <data name="lb_female.text" xml:space="preserve">
     <value>Female</value>
   </data>
+  <data name="lb_graduate.Text" xml:space="preserve">
+    <value>I hope you have a great day when you graduate on </value>
+  </data>
+  <data name="lb_hello.Text" xml:space="preserve">
+    <value>Hello,</value>
+  </data>
   <data name="lb_hope.text" xml:space="preserve">
+    <value>When I graduate, I hope to earn</value>
+  </data>
+  <data name="lb_hope.text1" xml:space="preserve">
     <value>When I graduate, I hope to earn</value>
   </data>
   <data name="lb_iam.text" xml:space="preserve">
@@ -140,5 +155,14 @@
   </data>
   <data name="lb_plan.text" xml:space="preserve">
     <value>I plan to graduate on:</value>
+  </data>
+  <data name="lb_visit.Text" xml:space="preserve">
+    <value>Please visit me on </value>
+  </data>
+  <data name="lb_wish.Text" xml:space="preserve">
+    <value>I wish you well in your career after graduation. I hope you earn</value>
+  </data>
+  <data name="lb_wish2.Text" xml:space="preserve">
+    <value>as as salary in your first job !</value>
   </data>
 </root>

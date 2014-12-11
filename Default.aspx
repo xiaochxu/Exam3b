@@ -53,6 +53,12 @@
 
                   <br />
 
+                  <br />
+
+                  <asp:Label ID="lb_hello" runat="server"  meta:resourcekey="lb_hello"></asp:Label>
+                  <asp:Label ID="Label4" runat="server" Text="lb_mr"></asp:Label>
+&nbsp;<asp:Label ID="Label3" runat="server" Text="lb_name"></asp:Label>
+
         <br />
             <asp:Label ID="lb_iam" runat="server"  meta:resourcekey="lb_iam"></asp:Label>
 
@@ -65,9 +71,20 @@
 
                   <br />
 
+                  <br />
+
+                  <asp:Label ID="lb_graduate" runat="server"  meta:resourcekey="lb_graduate"></asp:Label>
+                 <asp:Label ID="lb_date" runat="server"></asp:Label>
+
         <br />
             <asp:Label ID="lb_plan" runat="server" meta:resourcekey="lb_plan"></asp:Label>
         
+                  <br />
+        
+                  <asp:Label ID="lb_wish" runat="server" meta:resourcekey="lb_wish"></asp:Label>
+&nbsp;<asp:Label ID="Label2" runat="server" Text="lb_currency"></asp:Label>
+                 &nbsp;&nbsp;<asp:Label ID="lbl_money" runat="server"></asp:Label>
+&nbsp;<asp:Label ID="lb_wish2" runat="server" meta:resourcekey="lb_wish2"></asp:Label>
                   <br />
         
         <br />
@@ -77,6 +94,7 @@
             <asp:Label ID="lb_hope" runat="server" meta:resourcekey="lb_hope"></asp:Label>&nbsp; <asp:TextBox ID="txt_salary" runat="server"></asp:TextBox>
 
                   <br />
+                  <asp:Label ID="lb_visit" runat="server" meta:resourcekey="lb_visit"></asp:Label>
                   <br />
 
         <br />

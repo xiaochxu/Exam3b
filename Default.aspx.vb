@@ -21,24 +21,27 @@ Partial Class _Default
 
         Response.Redirect("info.aspx")
 
-        Dim salary As String
-        salary = txt_salary.Text.ToString
+        Dim salary As String = txt_salary.Text
 
-        Dim name As String
-        name = txt_name.Text
+        lbl_money.Text = String.Format("{0:c}", salary)
 
-        Dim selDate As Date
-        selDate = Calendar.SelectedDate
+        lbl_money.Visible = True
 
-        lb_name.Text = name
-        lb_salary.text = salary
+
+
+
+
+
+
+
+
+
+
 
 
 
 
     End Sub
 
-    Protected Sub Changed(sender As Object, e As EventArgs) Handles txt_name.TextChanged
-
-    End Sub
+  
 End Class
