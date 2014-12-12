@@ -162,10 +162,10 @@ Partial Class _Default
         txt_salary.Visible = False
         RegularExpressionValidator1.Visible = False
         Button1.Visible = False
-        lb_visit.Visible = False
+        lb_visit.Visible = True
         Language1.Visible = False
         Language2.Visible = True
-
+        HyperLink.Visible = True
 
     End Sub
 End Class
