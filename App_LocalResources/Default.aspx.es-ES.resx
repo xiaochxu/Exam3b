@@ -118,48 +118,45 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Button1.Text" xml:space="preserve">
-    <value>提交</value>
+    <value>presentar</value>
   </data>
   <data name="Label1.Text" xml:space="preserve">
-    <value>请选择您的语言</value>
+    <value>Por favor, elige tu idioma:</value>
   </data>
   <data name="lb_currency.Text" xml:space="preserve">
-    <value>¥</value>
+    <value>€</value>
   </data>
   <data name="lb_female.text" xml:space="preserve">
-    <value>女士</value>
+    <value>Mujer:</value>
   </data>
   <data name="lb_graduate.Text" xml:space="preserve">
-    <value>我希望你的梦想实现, 当你毕业于</value>
+    <value>Espero que tengas un gran día cuando se gradúe en</value>
   </data>
   <data name="lb_hello.Text" xml:space="preserve">
-    <value>您好</value>
+    <value>Hola</value>
   </data>
-  <data name="lb_hope.Text" xml:space="preserve">
-    <value>当我毕业了，我希望赚:</value>
+  <data name="lb_hope.text" xml:space="preserve">
+    <value>Cuando me gradúe, espero poder ganar</value>
   </data>
-  <data name="lb_iam.Text" xml:space="preserve">
-    <value>我是:</value>
+  <data name="lb_iam.text" xml:space="preserve">
+    <value>Yo soy:</value>
   </data>
   <data name="lb_male.text" xml:space="preserve">
-    <value>男士</value>
+    <value>Masculino</value>
   </data>
   <data name="lb_myname.Text" xml:space="preserve">
-    <value>我的名字是:</value>
+    <value>Mi nombre es:</value>
   </data>
-  <data name="lb_plan.Text" xml:space="preserve">
-    <value>我打算毕业的时间：</value>
-  </data>
-  <data name="lb_salary.Text" xml:space="preserve">
-    <value />
+  <data name="lb_plan.text" xml:space="preserve">
+    <value>Tengo la intención de graduarse en:</value>
   </data>
   <data name="lb_visit.Text" xml:space="preserve">
-    <value>请访问我的</value>
+    <value>Por favor, visite conmigo en</value>
   </data>
   <data name="lb_wish.Text" xml:space="preserve">
-    <value>祝你毕业后, 你的职业生涯一切顺利。希望你能赚</value>
+    <value>Te deseo lo mejor en su carrera después de la graduación. Espero que gane</value>
   </data>
   <data name="lb_wish2.Text" xml:space="preserve">
-    <value>当你得到你的第一份工作！</value>
+    <value>como como salario en su primer trabajo!</value>
   </data>
 </root>
