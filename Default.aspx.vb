@@ -27,17 +27,16 @@ Partial Class _Default
 
     Protected Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
 
+        Dim suffix As String
         If RadioButton1.Checked = True Then
-            RadioButton2.Checked = False
-            lb_mr.Text = "Ms. "
-
+            suffix = Resources.Resource.suffixfemale
+            Label2.Visible = True
+        Else
+            suffix = Resources.Resource.suffixmale
+            Label2.Visible = True
         End If
 
-        If RadioButton2.Checked = True Then
-            RadioButton1.Checked = False
-            lb_mr.Text = "Mr. "
-
-        End If
+        Label2.Text = suffix
 
 
         Dim salary As String = txt_salary.Text
@@ -51,8 +50,11 @@ Partial Class _Default
         Dim selecteddate As Date = Calendar.SelectedDate
         lb_date.Text = selecteddate.ToString("dd/MM/yyyy")
 
+
+
+
         lb_hello.Visible = True
-        lb_mr.Visible = True
+
         lb_name.Visible = True
         lb_graduate.Visible = True
         lb_wish.Visible = True
@@ -85,13 +87,15 @@ Partial Class _Default
 
 
 
+
+
     End Sub
 
   
     
     Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
         lb_hello.Visible = False
-        lb_mr.Visible = False
+
         lb_name.Visible = False
         lb_graduate.Visible = False
         lb_wish.Visible = False
@@ -99,13 +103,10 @@ Partial Class _Default
         lb_currency.Visible = False
         lbl_money.Visible = False
         lb_date.Visible = False
-
-
         lb_visit.Visible = False
         HyperLink.Visible = False
-
         Language2.Visible = False
-
+        Label2.Visible = False
 
 
     End Sub
@@ -113,17 +114,16 @@ Partial Class _Default
    
     Protected Sub Language2_SelectedIndexChanged(sender As Object, e As EventArgs) Handles Language2.SelectedIndexChanged
 
+        Dim suffix As String
         If RadioButton1.Checked = True Then
-            RadioButton2.Checked = False
-            lb_mr.Text = "Ms. "
-
+            suffix = Resources.Resource.suffixfemale
+            Label2.Visible = True
+        Else
+            suffix = Resources.Resource.suffixmale
+            Label2.Visible = True
         End If
 
-        If RadioButton2.Checked = True Then
-            RadioButton1.Checked = False
-            lb_mr.Text = "Mr. "
-
-        End If
+        Label2.Text = suffix
 
 
         Dim salary As String = txt_salary.Text
@@ -137,8 +137,10 @@ Partial Class _Default
         Dim selecteddate As Date = Calendar.SelectedDate
         lb_date.Text = selecteddate.ToString("dd/MM/yyyy")
 
+
+
+
         lb_hello.Visible = True
-        lb_mr.Visible = True
         lb_name.Visible = True
         lb_graduate.Visible = True
         lb_wish.Visible = True
@@ -165,6 +167,7 @@ Partial Class _Default
         lb_visit.Visible = True
         Language1.Visible = False
         Language2.Visible = True
+
         HyperLink.Visible = True
 
     End Sub

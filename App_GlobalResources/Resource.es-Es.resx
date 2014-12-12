@@ -120,6 +120,12 @@
   <data name="Course" xml:space="preserve">
     <value>Diseño y Desarrollo de Software</value>
   </data>
+  <data name="suffixfemale" xml:space="preserve">
+    <value>femenino</value>
+  </data>
+  <data name="suffixmale" xml:space="preserve">
+    <value>masculino</value>
+  </data>
   <data name="Welcome" xml:space="preserve">
     <value>Bienvenido a MSCI:3300</value>
   </data>

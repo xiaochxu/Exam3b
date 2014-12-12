@@ -117,11 +117,14 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Color" xml:space="preserve">
-    <value>Blue</value>
-  </data>
   <data name="Course" xml:space="preserve">
     <value>تصميم وتطوير البرمجيات</value>
+  </data>
+  <data name="suffixfemale" xml:space="preserve">
+    <value>أنثى</value>
+  </data>
+  <data name="suffixmale" xml:space="preserve">
+    <value>ذكر</value>
   </data>
   <data name="Welcome" xml:space="preserve">
     <value>مرحبا بكم فيMSCI:3300</value>

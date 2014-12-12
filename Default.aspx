@@ -73,8 +73,8 @@
                   &nbsp;
 
                   <asp:Label ID="lb_hello" runat="server"  meta:resourcekey="lb_hello"></asp:Label>
-                  <asp:Label ID="lb_mr" runat="server" Text="lb_mr"></asp:Label>
-&nbsp;<asp:Label ID="lb_name" runat="server"></asp:Label>
+&nbsp;<asp:Label ID="Label2" runat="server"></asp:Label>
+                 <asp:Label ID="lb_name" runat="server" ></asp:Label>
 
         <br />
             &nbsp;
